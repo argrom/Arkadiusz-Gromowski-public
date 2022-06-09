@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*colors
+#5C0F1E
+#E16880
+#DB2348
+#5C2A34
+#A81B38*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+	background-color: #A81B38;
+	color: #5C2A34;
+	font-family: 'Righteous', cursive;
+	font-weight:700;
+}
+div{
+	border-radius: 20px;
+}
+table{
+	width: 100%;
+	margin: auto;
+}
+a{
+	color:#DB2348;
+}
+h2{
+	padding: auto;
+}
+h3{
+	margin:auto;
+	padding:1.5vw;
+	font-size:1.5vw;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.logo{
+	width: 100%;
+	height: 7vw;
+	background-color: #E16880;
+	font-size: 5vw;
+	text-align: center;
+	text-shadow: 3px 3px #DB2348;
+	font-style: italic;
+}
+.title{
+	width: 100%;
+	height: 7vw;
+	background-color: #E16880;
+	text-align: center;
+	font-size: 5vw;
+}
+.hbreak{
+	clear:both;
+	height:5vw;
+	width: 100%;
+	min-height:5px;
+}
+.lvbreak{
+	height: 50vw;
+	min-width:5px;
+	width: 20%;
+	float: left;
+}
+.rvbreak{
+	height: 50vw;
+	min-width:5px;
+	width: 20%;
+	float: right;
+}
+.menu1{
+	background-color: #E16880;
+	color: #5C2A34;
+	position: fixed;
+	top: 200px;
+	right: 5px;
+	width: 19%;
+	text-align:justify;
+}
+.sub_menu{
+	background-color: #E16880;
+	color: #5C2A34;
+	position: fixed;
+	top: 200px;
+	right: 5px;
+	width: 25%;
+	text-align:justify;
+}
+.menu2{
+	background-color: #E16880;
+	color: #5C2A34;
+	position: fixed;
+	top: 200px;
+	left: 5px;
+	width: 19%;
+	text-align:justify;
+}
+.content{
+	width: 60%;
+	height: 65vw;
+	font-size: 2.5vw;
+	float: left;
+	background-color: #5C2A34;
+	color: #E16880;
+	margin: auto;
+}
+.sub_content{
+	width: 70%;
+	height: 100vw;
+	font-size: 2.5vw;
+	float: left;
+	background-color: #5C2A34;
+	color: #E16880;
+}
+.innercontent{
+	position:absolute;
+	padding:20px;
+	margin:auto;
+	width: 50%;
+}
+.sub_innercontent{
+	position:absolute;
+	padding:20px;
+	margin:auto;
+	width: 65%;
+}
+.gallery{
+	margin:10px 30px;
+}
+.gal_img{
+	width: 90%;
+	max-height: 250px;
+	max-width: 375px;
+	padding: 1.5vw;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.gal_img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+.table_min{
+	border-spacing: 7px;
+}
+.signature{
+	clear: both;
+	width: 100%;
+	height: 3vw;
+	background-color: #E16880;
+	text-align: right;
+	font-size: 2vw;
+}
+@media screen and (max-width:599px){
+	.menu1, .menu2, .sub_menu,.rvbreak, .lvbreak, .hbreak, .title{
+		display: none;
+	}
+	.content{
+		width: 100%;
+		height: 90vw;
+	}
+	.innercontent, .sub_innercontent{
+		width: 90%;
+	}
+	.sub_content{
+		width: 100%;
+		height: 90vw;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 1199px){
+	.menu_min, .menu2, .sub_menu, .rvbreak, .lvbreak, .hbreak{
+		display:none;
+	}
+	.content{
+		width: 70%;
+		height: 90vw;
+	}
+	.innercontent{
+		width: 60%;
+	}
+	.menu1{
+		position:relative;
+		float:right;
+		top: 50px;
+		right: 5px;
+		width: 25%;
+	}
+	.signature{
+		height: 30px;
+		font-size:15pt; 
+	}
+	.sub_content{
+		width: 100%;
+		height: 90vw;
+	}
+	.sub_innercontent{
+		width: 90%;
+	}
+}
+@media screen and (min-width:1200px){
+	.back, .menu_min{
+		display: none;
+	}
+}
