@@ -169,7 +169,7 @@ h3{
 		font-size: 30pt;
 	}
 	.table_min{
-		font-size: 15pt;
+		font-size: 5vw;
 	}
 	.innercontent, .sub_innercontent{
 		width: 90%;
@@ -194,7 +194,7 @@ h3{
 		height: 100vw;
 	}
 	.table_min{
-		font-size: 15;
+		font-size: 5vw;
 	}
 	.innercontent{
 		width: 60%;
@@ -209,6 +209,7 @@ h3{
 	}
 	.signature{
 		height: 30px;
+		padding: 3px;
 		font-size:15pt; 
 	}
 	.sub_content{
@@ -218,11 +219,6 @@ h3{
 	}
 	.sub_innercontent{
 		width: 90%;
-	}
-	.signature{
-		height: 20px;
-		padding: 3px;
-		font-size: 10pt;
 	}
 }
 @media screen and (min-width:1200px){
